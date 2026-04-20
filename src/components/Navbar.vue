@@ -4,6 +4,7 @@
 
 <template>
   <h1>Navbar</h1>
+  <router-link :to="{ name: 'Settings' }">Settings</router-link>
 </template>
 
 <style scoped>
