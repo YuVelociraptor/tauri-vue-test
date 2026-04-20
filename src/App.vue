@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { invoke } from "@tauri-apps/api/core";
+import Navbar from "./components/Navbar.vue";
 
 const greetMsg = ref("");
 const name = ref("");
@@ -12,8 +13,11 @@ async function greet() {
 </script>
 
 <template>
+
   <main class="container">
-    <h1>Welcome to Tauri + Vue</h1>
+    <Navbar />
+
+    <h1>Welcome to Tauri + Vue!!!!</h1>
 
     <div class="row">
       <a href="https://vite.dev" target="_blank">
