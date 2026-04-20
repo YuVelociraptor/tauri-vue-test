@@ -1,7 +1,8 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import {createRouter, createWebHashHistory} from 'vue-router'
 
 // ページコンポーネント
-import Home from '../pages/Home.vue'
+import Home from '@/pages/Home.vue'
+import Settings from "@/pages/Settings.vue";
 
 // ルート定義
 const routes = [
@@ -10,6 +11,11 @@ const routes = [
         name: 'Home',
         component: Home,
     },
+    {
+        path: '/settings',
+        name: 'Settings',
+        component: Settings,
+    }
 ]
 
 // Router生成

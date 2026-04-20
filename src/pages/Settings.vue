@@ -3,7 +3,7 @@
 </script>
 
 <template>
-
+  <h1>Settings Settings</h1>
 </template>
 
 <style scoped>
