@@ -11,6 +11,7 @@
     <nav :class="['nav-menu', { open: isOpen }]">
       <router-link to="/">Home</router-link>
       <router-link to="/menu01">Menu01</router-link>
+      <router-link to="/menu02">Menu02</router-link>
       <router-link to="/settings">Settings</router-link>
     </nav>
   </header>
